@@ -5,8 +5,6 @@ A premium e-commerce product landing page for a smart interactive dog toy. Built
 ## 🔗 Live Demo
 [paws-play.vercel.app](https://paws-play.vercel.app)
 
-## 📸 Preview
-![Paws & Play Preview](/public/pawsplay.png)
 
 ## ✨ Features
 - Playful bright theme with orange accent colors
