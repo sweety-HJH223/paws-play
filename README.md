@@ -1,6 +1,6 @@
 # 🐾 Paws & Play
 
-A premium e-commerce product landing page for a smart interactive dog toy. Built as a freelance portfolio demo project targeting global clients.
+A premium e-commerce product landing page for a smart interactive dog toy.
 
 ## 🔗 Live Demo
 [paws-play.vercel.app](https://paws-play.vercel.app)
@@ -19,15 +19,13 @@ A premium e-commerce product landing page for a smart interactive dog toy. Built
 - Mobile responsive with hamburger menu
 
 ## 💳 Payment Integration
-This is a portfolio demo project. The Buy Now button redirects to a success confirmation page.
-
-For real client projects, I integrate:
+The Buy Now button redirects to a success confirmation page. For real client projects, I integrate:
 - **Stripe** — for US/EU/Global clients
 - **Razorpay** — for Indian clients
 - **PayPal** — for international clients
 
 ## 🛠️ Tech Stack
-- Next.js 16
+- Next.js 15
 - Tailwind CSS
 - TypeScript
 - Vercel (deployment)
@@ -50,33 +48,21 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
 
+```
 app/
-
-page.tsx              # Main page
-
-success/page.tsx      # Order confirmation page
-
-globals.css           # Global styles
+├── page.tsx                  # Main page
+├── success/page.tsx          # Order confirmation page
+└── globals.css               # Global styles
 
 components/paws-play/
-
-navbar.tsx            # Sticky nav + hamburger
-
-hero-section.tsx      # Split hero layout
-
-features-section.tsx  # 3 feature cards
-
-image-gallery.tsx     # Thumbnail carousel
-
-testimonials-section.tsx  # Review cards
-
-faq-section.tsx       # Accordion FAQ
-
-buy-now-section.tsx   # CTA + buy button
-
-footer.tsx            # Detailed footer
-
+├── navbar.tsx                # Sticky nav + hamburger
+├── hero-section.tsx          # Split hero layout
+├── features-section.tsx      # 3 feature cards
+├── image-gallery.tsx         # Thumbnail carousel
+├── testimonials-section.tsx  # Review cards
+├── faq-section.tsx           # Accordion FAQ
+├── buy-now-section.tsx       # CTA + buy button
+└── footer.tsx                # Detailed footer
+```
 ## 👩‍💻 Built By
-**SweetyCodes** — [portfolio-one-taupe-42.vercel.app](https://portfolio-one-taupe-42.vercel.app)
-
-> 📌 This is a portfolio demo project. Not a real business.
+**SweetyCodes** — [sweetycodes-jh.vercel.app](https://sweetycodes-jh.vercel.app/)
